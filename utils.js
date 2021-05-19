@@ -2,4 +2,8 @@ console.log('My message!')
 
 const testmsg = 'blahblah!'
 
-module.exports = testmsg
+const add = function(a, b){
+    return a + b
+}
+
+module.exports = add

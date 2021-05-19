@@ -4,6 +4,8 @@
 
 // fs.appendFileSync('notes.txt', "let's see how this goes!")
 
-const testmsg = require('./utils.js')
+const add = require('./utils.js')
 
-console.log(testmsg)
+const sum = add(4, -2)
+
+console.log(sum)
