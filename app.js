@@ -4,6 +4,6 @@
 
 // fs.appendFileSync('notes.txt', "let's see how this goes!")
 
-require('./utils.js')
+const testmsg = require('./utils.js')
 
-console.log('hmm')
+console.log(testmsg)
