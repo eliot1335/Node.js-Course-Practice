@@ -15,3 +15,5 @@ console.log(msg)
 console.log(validator.isEmail("eliottesttest@gmail.com"))
 console.log(validator.isURL("https://www.npmjs.com"))
 console.log(chalk.green.bold("show me the green!"))
+
+console.log(process.argv[2])
