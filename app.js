@@ -4,6 +4,7 @@
 
 // fs.appendFileSync('notes.txt', "let's see how this goes!")
 
+const chalk = require("chalk")
 const validator = require("validator")
 const getNotes = require('./notes.js')
 
@@ -13,3 +14,4 @@ console.log(msg)
 
 console.log(validator.isEmail("eliottesttest@gmail.com"))
 console.log(validator.isURL("https://www.npmjs.com"))
+console.log(chalk.blue.bold.inverse("show me the green!"))
