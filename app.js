@@ -14,4 +14,4 @@ console.log(msg)
 
 console.log(validator.isEmail("eliottesttest@gmail.com"))
 console.log(validator.isURL("https://www.npmjs.com"))
-console.log(chalk.blue.bold.inverse("show me the green!"))
+console.log(chalk.green.bold.inverse("show me the green!"))
