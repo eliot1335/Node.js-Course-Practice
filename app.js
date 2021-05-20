@@ -12,3 +12,4 @@ const msg = getNotes()
 console.log(msg)
 
 console.log(validator.isEmail("eliottesttest@gmail.com"))
+console.log(validator.isURL("https://www.npmjs.com"))
