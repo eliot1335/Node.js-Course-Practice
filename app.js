@@ -1,8 +1,4 @@
-const chalk = require("chalk")
 const yargs = require("yargs")
-const validator = require("validator")
-const getNotes = require('./notes.js')
-const { demandOption } = require("yargs")
 const notes = require("./notes.js")
 
 /*
